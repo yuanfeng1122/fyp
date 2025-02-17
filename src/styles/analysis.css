@@ -1,0 +1,95 @@
+.analysis-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+}
+
+.search-btn {
+  padding: 0.8rem 1.5rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.sentiment-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.sentiment-card {
+  background-color: #333;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.sentiment-card.positive {
+  border: 2px solid #28a745;
+}
+
+.sentiment-card.neutral {
+  border: 2px solid #ffc107;
+}
+
+.sentiment-card.negative {
+  border: 2px solid #dc3545;
+}
+
+.emoji {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.sentiment-text {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.sentiment-label {
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+}
+
+.positive .sentiment-label {
+  background-color: #28a745;
+}
+
+.neutral .sentiment-label {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.negative .sentiment-label {
+  background-color: #dc3545;
+} 
